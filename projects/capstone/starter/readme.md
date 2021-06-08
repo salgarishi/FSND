@@ -22,10 +22,10 @@ Each time you open a new terminal session, run:
 
 ```
 #For windows
-set FLASK_APP=api.py
+set FLASK_APP=app.py
 
 #For mac
-export FLASK_APP=api.py;
+export FLASK_APP=app.py;
 ```
 
 To run the server, execute:
@@ -41,7 +41,7 @@ The `--reload` flag will detect file changes and restart the server automaticall
 
 ## Getting Started
 
-- Base URL: At present this app can be run locally and also on heroku. The backend app is hosted at the default, http://127.0.0.1:5000/ or by visiting https://fsnd-capstone-salquraishi.herokuapp.com 
+- Base URL: At present this app can be run locally and also on heroku. The backend app is hosted at the default, http://127.0.0.1:5000/ or by visiting https://Salquraishi.herokuapp.com/ 
 
 - Authentication: was set up using Auth0 jwt, at the end of the file tokens for each role are provided for reviewer testing.
 
